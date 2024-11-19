@@ -1,3 +1,5 @@
+import React from "react";
+import img from "../img/illustration-sign-up-mobile.svg";
 import { useState } from "react";
 import { HiCheckCircle } from "react-icons/hi2";
 function Home() {
@@ -142,11 +144,7 @@ function Home() {
             alt="sign-up-desktop"
           />
 
-          <img
-            className="w-full md:hidden"
-            src="img/illustration-sign-up-mobile.svg"
-            alt="sign-up-desktop"
-          />
+          <img className="w-full md:hidden" src={img} alt="sign-up-desktop" />
         </div>
       </div>
     </div>
